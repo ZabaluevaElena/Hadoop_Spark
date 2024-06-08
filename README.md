@@ -8,22 +8,22 @@ In the project directory, you can run:
 
 ## Launching experiments
 
-### 1 DataNode, a basic Spark application
+- ### 1 DataNode, a basic Spark application
 
 ### `make run-d`
 ### `make submit app=client.py`
 
-### 1 DataNode, an optimized Spark application
+- ### 1 DataNode, an optimized Spark application
 
 ### `make run-d`
 ### `make submit app=client_opt.py`
 
-### 3 DataNode, a basic Spark application
+- ### 3 DataNode, a basic Spark application
 
 ### `make run-scaled-d`
 ### `make submit app=client.py`
 
-### 3 DataNode, an optimized Spark application
+- ### 3 DataNode, an optimized Spark application
 
 ### `make run-scaled-d`
 ### `make submit app=client_opt.py`
